@@ -1,0 +1,108 @@
+:root {
+    --bg-dark: #121212;
+    --bg-navbar: #1c1c1e;
+    --bg-dark-secondary: #242426;
+    --text-light: #f5f5f5;
+    --text-muted: #a1a1a6;
+    --accent-color: #34c759; /* iOS green color */
+}
+
+body.ios-dark-theme {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.bg-navbar {
+    background-color: var(--bg-navbar);
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(145deg, #1c1c1e, #121212);
+}
+
+.bg-content {
+    background-color: var(--bg-dark);
+}
+
+.bg-dark-secondary {
+    background-color: var(--bg-dark-secondary);
+}
+
+.text-accent {
+    color: var(--accent-color);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--text-light) !important;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+.logo-image {
+    width: 32px; /* Adjusted to be more balanced */
+    height: 32px;
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+.btn-accent:hover {
+    background-color: #28a745;
+}
+
+.card, .list-group-item {
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+}
+
+.card:hover, .list-group-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+/* Contact Form Input Styling */
+.contact-input {
+    border: none; /* Remove borders */
+    outline: none; /* Remove default outline */
+    box-shadow: none !important; /* Prevent Bootstrap shadow on focus */
+    padding: 10px;
+    color: var(--text-light);
+    background-color: var(--bg-dark-secondary);
+    border-radius: 6px; /* Rounded corners for a softer look */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover and Focus States */
+.contact-input:focus, .contact-input:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle color change on focus/hover */
+}
+
+/* Interactive Name Styling */
+.interactive-name {
+    font-family: monospace;
+    font-size: 3rem;
+    color: #ffffff; /* Base text color */
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Base subtle glow */
+    transition: text-shadow 0.05s ease-out;
+}
+
+
+
+
+
+
+
+

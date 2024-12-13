@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zmain.info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/penrose.png">
+</head>
+<body class="ios-dark-theme">
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-navbar py-2 shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="assets/penrose.png" alt="Penrose Triangle" class="logo-image me-2">
+            <span class="site-title">zmain.info</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://blog.zmain.info">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="text-center p-5 text-light bg-dark-gradient">
+    <div class="container">
+        <h1 class="display-5">
+            <span id="interactive-name" class="interactive-name">Zach Main</span>
+        </h1>
+    </div>
+</section>
+
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5 bg-content">
+    <div class="container">
+        <h2 class="text-accent mb-4">Portfolio</h2>
+        <div class="row g-4">
+            <!-- Project Cards -->
+            <div class="col-md-4">
+                <div class="card bg-dark-secondary shadow-sm h-100 rounded-4">
+                    <div class="card-body text-light">
+                        <h5 class="card-title">cwAutoSolve</h5>
+                        <p class="card-text">A web automation tool to solve challenges on CodeWars.</p>
+                        <a href="https://github.com/code-zm/cwAutoSolve" target="_blank" class="btn btn-accent rounded-pill">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark-secondary shadow-sm h-100 rounded-4">
+                    <div class="card-body text-light">
+                        <h5 class="card-title">rokuTroll</h5>
+                        <p class="card-text">A funny shell script to find and Rick Roll any Roku TV on your network. </p>
+                        <a href="https://github.com/code-zm/rokuTroll" target="_blank" class="btn btn-accent rounded-pill">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark-secondary shadow-sm h-100 rounded-4">
+                    <div class="card-body text-light">
+                        <h5 class="card-title">ezTitles</h5>
+                        <p class="card-text">A flask web app that generates and aligns subtitles automatically. </p>
+                        <a href="https://github.com/code-zm/ezTitles" target="_blank" class="btn btn-accent rounded-pill">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TODO Section -->
+<section id="todo" class="py-5 bg-content">
+    <div class="container">
+        <h2 class="text-accent mb-4">TODO</h2>
+        <ul class="list-group">
+            <li class="list-group-item bg-dark-secondary text-light rounded-4 shadow-sm mb-3">
+                <h5>IT - Cybersecurity Associate's Degree</h5>
+                <p>Estimated Completion: December 2025</p>
+            </li>
+            <li class="list-group-item bg-dark-secondary text-light rounded-4 shadow-sm mb-3">
+                <h5>TestOut Certifications</h5>
+                <p>Security Pro and PC Pro. Estimated Completion: January 2025</p>
+            </li>
+            <li class="list-group-item bg-dark-secondary text-light rounded-4 shadow-sm mb-3">
+                <h5>Launch Klipped.ai</h5>
+                <p>A platform that automates creation of viral short form content.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3 bg-navbar text-light">
+    <p>&copy; 2024 zmain.info. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/lighting.js"></script>
+</body>
+</html>
+
